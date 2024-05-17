@@ -1,0 +1,12 @@
+//efeito de esconder formulário de cadastro
+
+$(document).ready(function(){
+    
+    $("#Botão-cadrastrar ").click(function(){
+        
+        $("#aform-cadrastrar ").slideToggle("slow")
+        $("#section-login ").slideToggle("slow")
+        $("#botao-cadastrar").slideToggle("slow")
+});
+
+});
